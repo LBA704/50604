@@ -13,15 +13,19 @@
         }
         .upcard{
             width: 100px;
-            height: 150px;
+            height: 143px;
+            border-color:cyan;
+           background-image:url("3.jpg");
         }
         .downcard{
             width: 100px;
-            height: 150px;
+            height: 143px;
+            border-color:cyan;
+           background-image:url("3.jpg");
         }
     </style>
 </head>
-<body background="3266.jpg_wh860.jpg">
+<body background="2.jpg">
     <div>
         <input type="button" value="1" class="upcard">
         <input type="button" value="" class="upcard">
@@ -34,7 +38,7 @@
         <input type="button" value="" class="downcard">
         <input type="button" value="" class="downcard">
     </div>
-    <input type="button" value="開始翻牌" id="beg">
+    <input type="button" value="開始翻牌" id="beg" style="font-size: 50px;">
 </body>
 </html>
 <script>
